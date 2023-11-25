@@ -1,0 +1,42 @@
+[
+    {
+      "_id": 1,
+      "image": "https://i.ibb.co/PTjQwL6/rakib-bin-aziz-T6-Boc-Vo-WOhs-unsplash.jpg",
+      "category": "City Tours",
+      "title": "Explore the City Lights",
+      "Details": "Immerse yourself in culture and history with visits to renowned museums and art galleries. Expert-guided tours to appreciate the richness of art and culture.",
+      "price": 50.00
+    },
+    {
+      "_id": 2,
+      "image": "https://i.ibb.co/CQhJCHx/niloy-biswas-Dlzof0g5svo-unsplash.jpg",
+      "category": "Nature Adventures",
+      "title": "Hiking in the Wilderness",
+      "Details": "Immerse yourself in culture and history with visits to renowned museums and art galleries. Expert-guided tours to appreciate the richness of art and culture.",
+      "price": 75.00
+    },
+    {
+      "_id": 3,
+      "image": "https://i.ibb.co/khqGLhf/motiur-rahman-shakil-l2-Knpn-Orhh-A-unsplash.jpg",
+      "category": "Cultural Experiences",
+      "title": "Museum and Art Gallery Tour",
+      "Details": "Immerse yourself in culture and history with visits to renowned museums and art galleries. Expert-guided tours to appreciate the richness of art and culture.",
+      "price": 40.00
+    },
+    {
+      "_id": 4,
+      "image": "https://i.ibb.co/CQhJCHx/niloy-biswas-Dlzof0g5svo-unsplash.jpg",
+      "category": "Beach Escapes",
+      "title": "Sun and Sand Getaway",
+      "Details": "Immerse yourself in culture and history with visits to renowned museums and art galleries. Expert-guided tours to appreciate the richness of art and culture.",
+      "price": 60.00
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/SvYwPpk/hemel-ahmed-Se-Xd-Av4-OTuo-unsplash.jpg",
+      "category": "Historical Journeys",
+      "title": "Journey Through Time: Historical Sites",
+      "Details": "Immerse yourself in culture and history with visits to renowned museums and art galleries. Expert-guided tours to appreciate the richness of art and culture.",
+      "price": 55.00
+    }
+  ]
