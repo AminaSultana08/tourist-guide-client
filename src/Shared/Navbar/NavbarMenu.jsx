@@ -17,24 +17,24 @@ const NavbarMenu = () => {
         })
     }
     return (
-        <div className="relative">
+        <div className="relative ">
             <div onClick={()=>setIsOpen(!isOpen)} className="p-2 md:py-2 md:px-2 flex flex-row items-center gap-2 rounded-full  hover:shadow-md transition">
             
-         <FaBars className="text-red-500 " />
+         <FaBars className="text-red-500 lg:text-lg md:text-5xl " />
          <div>
          <img
-         className='rounded-full border-red-800 border-[2px]'
+         className='rounded-full lg:w-24 border-red-800 border-[2px]'
          referrerPolicy='no-referrer'
          src={user && user.photoURL ? user.photoURL : avatar}
          alt='profile'
-         height='60'
-         width='60'
+         height='100'
+         width='100'
        />
          </div>
 
             </div>
             {
-                isOpen && <div className="absolute px-7 bg-black p-3">
+                isOpen && <div className="absolute px-3 bg-black p-3">
                 <div className="flex flex-col cursor-pointer">
                   <div className="md:hidden block ">
                   <ul className="flex  flex-col gap-2  ">

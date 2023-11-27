@@ -1,8 +1,9 @@
 import { Helmet } from "react-helmet";
 import Title from "../../Component/Title/Title";
-import OurPackages from "../Home/Home/TravelGuide/OurPackages/OurPackages";
+
 import useTourPackages from "../../hooks/useTourPackages";
-import { TourPackageCard } from "../../Shared/PackageCard/TourPackageCard";
+import TourPackageCard from "../../Shared/PackageCard/TourPackageCard";
+
 
 
 const AllPackages = () => {

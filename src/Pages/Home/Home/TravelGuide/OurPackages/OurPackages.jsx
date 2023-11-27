@@ -1,14 +1,15 @@
 
 
-import { useState } from 'react';
-import {  TourPackageCard } from '../../../../../Shared/PackageCard/TourPackageCard';
+
+
+import TourPackageCard from '../../../../../Shared/PackageCard/TourPackageCard';
 import useTourPackages from '../../../../../hooks/useTourPackages';
 import { Link } from 'react-router-dom';
-//import { PackageCard } from '../../../../../Shared/PackageCard/PackageCard';
+
 
 const OurPackages = () => {
     const [tourPackages] = useTourPackages()
- //const [dataLength , setDataLength] = useState(3)
+
 
    
     return (

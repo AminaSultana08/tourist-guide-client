@@ -19,7 +19,8 @@ const router = createBrowserRouter([
             },
             {
                 path:'packageDetails/:id',
-                element:<PrivateRoute><PackageDetails></PackageDetails></PrivateRoute>
+                element:<PrivateRoute><PackageDetails></PackageDetails></PrivateRoute>,
+                loader:({params})=>fetch(`http://localhost:5000/packages/${params.id}`)
             },
             {
                 path:'/allPackages',
