@@ -1,42 +1,159 @@
-[
+
+
+  [
     {
-      "_id": 1,
-      "image": "https://i.ibb.co/PTjQwL6/rakib-bin-aziz-T6-Boc-Vo-WOhs-unsplash.jpg",
-      "category": "City Tours",
-      "title": "Explore the City Lights",
-      "Details": "Immerse yourself in culture and history with visits to renowned museums and art galleries. Expert-guided tours to appreciate the richness of art and culture.",
-      "price": 50.00
-    },
-    {
-      "_id": 2,
-      "image": "https://i.ibb.co/CQhJCHx/niloy-biswas-Dlzof0g5svo-unsplash.jpg",
-      "category": "Nature Adventures",
-      "title": "Hiking in the Wilderness",
-      "Details": "Immerse yourself in culture and history with visits to renowned museums and art galleries. Expert-guided tours to appreciate the richness of art and culture.",
-      "price": 75.00
-    },
-    {
-      "_id": 3,
-      "image": "https://i.ibb.co/khqGLhf/motiur-rahman-shakil-l2-Knpn-Orhh-A-unsplash.jpg",
-      "category": "Cultural Experiences",
-      "title": "Museum and Art Gallery Tour",
-      "Details": "Immerse yourself in culture and history with visits to renowned museums and art galleries. Expert-guided tours to appreciate the richness of art and culture.",
-      "price": 40.00
-    },
-    {
-      "_id": 4,
-      "image": "https://i.ibb.co/CQhJCHx/niloy-biswas-Dlzof0g5svo-unsplash.jpg",
-      "category": "Beach Escapes",
-      "title": "Sun and Sand Getaway",
-      "Details": "Immerse yourself in culture and history with visits to renowned museums and art galleries. Expert-guided tours to appreciate the richness of art and culture.",
-      "price": 60.00
-    },
-    {
-      "id": 5,
+      "tour_id": 1,
       "image": "https://i.ibb.co/SvYwPpk/hemel-ahmed-Se-Xd-Av4-OTuo-unsplash.jpg",
-      "category": "Historical Journeys",
-      "title": "Journey Through Time: Historical Sites",
-      "Details": "Immerse yourself in culture and history with visits to renowned museums and art galleries. Expert-guided tours to appreciate the richness of art and culture.",
-      "price": 55.00
+      "tour_type": "History",
+      "title": "Ancient City Expedition",
+      "price": 150,
+      "day1_tourPlan": "Visit to the Colosseum and Roman Forum",
+      "day1_description": "Explore the iconic Colosseum and immerse yourself in the history of the Roman Empire.",
+      "day2_tourPlan": "Tour of the Vatican City",
+      "day2_description": "Discover the art and architecture of the Vatican, including St. Peter's Basilica and the Sistine Chapel."
+    },
+    {
+      "tour_id": 2,
+      "image": "https://i.ibb.co/CQhJCHx/niloy-biswas-Dlzof0g5svo-unsplash.jpg",
+      "tour_type": "Culinary ",
+      "title": "Gourmet Delights of Paris",
+      "price": 200,
+      "day1_tourPlan": "Morning visit to a local bakery for fresh pastries",
+      "day1_description": "Start your day with the finest French pastries in a charming local bakery.",
+      "day2_tourPlan": "Evening gourmet dinner at a Michelin-starred restaurant",
+      "day2_description": "Indulge in a culinary masterpiece with a multi-course dinner at a renowned Michelin-starred restaurant."
+    },
+    {
+      "tour_id": 3,
+      "image": "https://i.ibb.co/khqGLhf/motiur-rahman-shakil-l2-Knpn-Orhh-A-unsplash.jpg",
+      "tour_type": "Hiking ",
+      "title": "Hiking in the Swiss Alps",
+      "price": 250,
+      "day1_tourPlan": "Scenic hike to Jungfraujoch",
+      "day1_description": "Embark on a breathtaking hike to the 'Top of Europe' with stunning views of the Swiss Alps.",
+      "day2_tourPlan": "Adventure sports in Interlaken",
+      "day2_description": "Experience the thrill with a day of paragliding, zip-lining, and other adventure sports in Interlaken."
+    },
+    {
+      "tour_id": 4,
+      "image": "https://i.ibb.co/CQhJCHx/niloy-biswas-Dlzof0g5svo-unsplash.jpg",
+      "tour_type": "Cultural ",
+      "title": "Japanese Cultural Experience",
+      "price": 180,
+      "day1_tourPlan": "Tea ceremony and traditional kimono wearing",
+      "day1_description": "Participate in a traditional Japanese tea ceremony and dress in a beautiful kimono.",
+      "day2_tourPlan": "Visit to a local Shinto shrine and festival",
+      "day2_description": "Immerse yourself in Japanese spirituality with a visit to a Shinto shrine and experience a local festival."
+    },
+    {
+      "tour_id": 5,
+      "image": "https://i.ibb.co/PTjQwL6/rakib-bin-aziz-T6-Boc-Vo-WOhs-unsplash.jpg",
+      "tour_type": "Urban",
+      "title": "Barcelona Modernist Marvels",
+      "price": 180,
+      "day1_tourPlan": "Exploration of Gaudí's masterpieces",
+      "day1_description": "Discover the architectural wonders of Antoni Gaudí, including Sagrada Família and Park Güell.",
+      "day2_tourPlan": "Art stroll through the Gothic Quarter",
+      "day2_description": "Wander through the historic Gothic Quarter, exploring medieval architecture and contemporary art installations."
+    },
+    {
+      "tour_id": 6,
+      "image": "https://i.ibb.co/SvYwPpk/hemel-ahmed-Se-Xd-Av4-OTuo-unsplash.jpg",
+      "tour_type": "History",
+      "title": "Ancient City Expedition",
+      "price": 150,
+      "day1_tourPlan": "Visit to the Colosseum and Roman Forum",
+      "day1_description": "Explore the iconic Colosseum and immerse yourself in the history of the Roman Empire.",
+      "day2_tourPlan": "Tour of the Vatican City",
+      "day2_description": "Discover the art and architecture of the Vatican, including St. Peter's Basilica and the Sistine Chapel."
+    },
+    {
+      "tour_id": 7,
+      "image": "https://i.ibb.co/CQhJCHx/niloy-biswas-Dlzof0g5svo-unsplash.jpg",
+      "tour_type": "Culinary ",
+      "title": "Gourmet Delights of Paris",
+      "price": 200,
+      "day1_tourPlan": "Morning visit to a local bakery for fresh pastries",
+      "day1_description": "Start your day with the finest French pastries in a charming local bakery.",
+      "day2_tourPlan": "Evening gourmet dinner at a Michelin-starred restaurant",
+      "day2_description": "Indulge in a culinary masterpiece with a multi-course dinner at a renowned Michelin-starred restaurant."
+    },
+    {
+      "tour_id": 8,
+      "image": "https://i.ibb.co/khqGLhf/motiur-rahman-shakil-l2-Knpn-Orhh-A-unsplash.jpg",
+      "tour_type": "Hiking ",
+      "title": "Hiking in the Swiss Alps",
+      "price": 250,
+      "day1_tourPlan": "Scenic hike to Jungfraujoch",
+      "day1_description": "Embark on a breathtaking hike to the 'Top of Europe' with stunning views of the Swiss Alps.",
+      "day2_tourPlan": "Adventure sports in Interlaken",
+      "day2_description": "Experience the thrill with a day of paragliding, zip-lining, and other adventure sports in Interlaken."
+    },
+    {
+      "tour_id": 9,
+      "image": "https://i.ibb.co/CQhJCHx/niloy-biswas-Dlzof0g5svo-unsplash.jpg",
+      "tour_type": "Cultural ",
+      "title": "Japanese Cultural Experience",
+      "price": 180,
+      "day1_tourPlan": "Tea ceremony and traditional kimono wearing",
+      "day1_description": "Participate in a traditional Japanese tea ceremony and dress in a beautiful kimono.",
+      "day2_tourPlan": "Visit to a local Shinto shrine and festival",
+      "day2_description": "Immerse yourself in Japanese spirituality with a visit to a Shinto shrine and experience a local festival."
+    },
+    {
+      "tour_id": 10,
+      "image": "https://i.ibb.co/PTjQwL6/rakib-bin-aziz-T6-Boc-Vo-WOhs-unsplash.jpg",
+      "tour_type": "Urban",
+      "title": "Barcelona Modernist Marvels",
+      "price": 180,
+      "day1_tourPlan": "Exploration of Gaudí's masterpieces",
+      "day1_description": "Discover the architectural wonders of Antoni Gaudí, including Sagrada Família and Park Güell.",
+      "day2_tourPlan": "Art stroll through the Gothic Quarter",
+      "day2_description": "Wander through the historic Gothic Quarter, exploring medieval architecture and contemporary art installations."
+    },
+    {
+      "tour_id": 11,
+      "image": "https://i.ibb.co/PTjQwL6/rakib-bin-aziz-T6-Boc-Vo-WOhs-unsplash.jpg",
+      "tour_type": "Beach",
+      "title": "Barcelona Modernist Marvels",
+      "price": 180,
+      "day1_tourPlan": "Exploration of Gaudí's masterpieces",
+      "day1_description": "Discover the architectural wonders of Antoni Gaudí, including Sagrada Família and Park Güell.",
+      "day2_tourPlan": "Art stroll through the Gothic Quarter",
+      "day2_description": "Wander through the historic Gothic Quarter, exploring medieval architecture and contemporary art installations."
+    },
+    {
+      "tour_id": 12,
+      "image": "https://i.ibb.co/PTjQwL6/rakib-bin-aziz-T6-Boc-Vo-WOhs-unsplash.jpg",
+      "tour_type": "Beach",
+      "title": "Barcelona Modernist Marvels",
+      "price": 180,
+      "day1_tourPlan": "Exploration of Gaudí's masterpieces",
+      "day1_description": "Discover the architectural wonders of Antoni Gaudí, including Sagrada Família and Park Güell.",
+      "day2_tourPlan": "Art stroll through the Gothic Quarter",
+      "day2_description": "Wander through the historic Gothic Quarter, exploring medieval architecture and contemporary art installations."
+    },
+    {
+      "tour_id": 13,
+      "image": "https://i.ibb.co/PTjQwL6/rakib-bin-aziz-T6-Boc-Vo-WOhs-unsplash.jpg",
+      "tour_type": "WildLife",
+      "title": "Barcelona Modernist Marvels",
+      "price": 180,
+      "day1_tourPlan": "Exploration of Gaudí's masterpieces",
+      "day1_description": "Discover the architectural wonders of Antoni Gaudí, including Sagrada Família and Park Güell.",
+      "day2_tourPlan": "Art stroll through the Gothic Quarter",
+      "day2_description": "Wander through the historic Gothic Quarter, exploring medieval architecture and contemporary art installations."
+    },
+    {
+      "tour_id": 14,
+      "image": "https://i.ibb.co/PTjQwL6/rakib-bin-aziz-T6-Boc-Vo-WOhs-unsplash.jpg",
+      "tour_type": "WildLife",
+      "title": "Barcelona Modernist Marvels",
+      "price": 180,
+      "day1_tourPlan": "Exploration of Gaudí's masterpieces",
+      "day1_description": "Discover the architectural wonders of Antoni Gaudí, including Sagrada Família and Park Güell.",
+      "day2_tourPlan": "Art stroll through the Gothic Quarter",
+      "day2_description": "Wander through the historic Gothic Quarter, exploring medieval architecture and contemporary art installations."
     }
+    
   ]

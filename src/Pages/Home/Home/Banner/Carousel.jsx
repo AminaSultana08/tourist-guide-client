@@ -10,7 +10,7 @@ import './Carousel.css'
 import Title from '../../../../Component/Title/Title';
 const Carousel = () => {
     return (
-        <div>
+        <div className='pt-24'>
         <Title  heading=' Paladium Awatis' subHeading='Welcome To' ></Title>
         <Swiper
         effect={'coverflow'}
@@ -26,31 +26,31 @@ const Carousel = () => {
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
-        className="mySwiper carousel"
+        className="mySwiper carousel "
       >
-        <SwiperSlide>
-          <img className='w-1/2   h-96 ' src="https://i.ibb.co/CVkWX2s/sean-oulashin-KMn4-VEe-EPR8-unsplash.jpg" />
+        <SwiperSlide className=''>
+          <img className='w-1/2   h-96 hover:scale-110 transition duration-300 ' src="https://i.ibb.co/CVkWX2s/sean-oulashin-KMn4-VEe-EPR8-unsplash.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='w-1/2 h-96 ' src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <img className='w-1/2 h-96 hover:scale-110 transition duration-300 ' src="https://swiperjs.com/demos/images/nature-2.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='w-1/2 h-96 ' src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <img className='w-1/2 h-96 hover:scale-110 transition duration-300 ' src="https://swiperjs.com/demos/images/nature-3.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='w-full cover h-96 ' src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          <img className='w-full cover h-96 hover:scale-110 transition duration-300 ' src="https://swiperjs.com/demos/images/nature-4.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='w-1/2 h-96 ' src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          <img className='w-1/2 h-96 hover:scale-110 transition duration-300 ' src="https://swiperjs.com/demos/images/nature-5.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='w-1/2 h-96 ' src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          <img className='w-1/2 h-96 hover:scale-110 transition duration-300 ' src="https://swiperjs.com/demos/images/nature-6.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='w-1/2 h-96 ' src="https://swiperjs.com/demos/images/nature-7.jpg" />
+          <img className='w-1/2 h-96 hover:scale-110 transition duration-300 ' src="https://swiperjs.com/demos/images/nature-7.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='w-1/2 h-96 ' src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          <img className='w-1/2 h-96  hover:scale-110 transition duration-300' src="https://swiperjs.com/demos/images/nature-8.jpg" />
         </SwiperSlide>
         <SwiperSlide>
           <img className='w-1/2 h-96' src="https://i.ibb.co/CVkWX2s/sean-oulashin-KMn4-VEe-EPR8-unsplash.jpg" />

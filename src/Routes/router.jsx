@@ -5,6 +5,7 @@ import AllPackages from "../Pages/AllPackages/AllPackages";
 import PackageDetails from "../Pages/Home/Home/TravelGuide/OurPackages/PackageDetails/PackageDetails";
 import Login from "../Pages/Login/Login";
 import Register from "../Register/Register";
+import PrivateRoute from "./PrivateRoute";
 
 
 const router = createBrowserRouter([
@@ -18,7 +19,7 @@ const router = createBrowserRouter([
             },
             {
                 path:'packageDetails/:id',
-                element:<PackageDetails></PackageDetails>
+                element:<PrivateRoute><PackageDetails></PackageDetails></PrivateRoute>
             },
             {
                 path:'/allPackages',

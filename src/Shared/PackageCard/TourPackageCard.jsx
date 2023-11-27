@@ -13,11 +13,11 @@ import {
 import { Link } from "react-router-dom";
    
   export function TourPackageCard({item}) {
-    const {_id,image,category,title,Details,price} = item
+    const {_id,image,tour_type,title,Details,price} = item
     return (
-      <Card className="w-full p-5 max-w-[26rem] shadow-lg">
+      <Card className="w-full p-5 max-w-[26rem] shadow-lg hover:scale-110  transition duration-300">
         <CardHeader floated={false} color="blue-gray">
-          <img className="w-full h-60"
+          <img className="w-full h-60 "
             src={image}
             alt="ui/ux review check"
           />
@@ -41,7 +41,7 @@ import { Link } from "react-router-dom";
         <CardBody>
           <div className="mb-3 flex items-center justify-between p-3">
             <Typography variant="h5" color="blue-gray" className="font-medium">
-              {category}
+              {tour_type}
             </Typography>
             <Typography
               color="blue-gray"
@@ -59,7 +59,9 @@ import { Link } from "react-router-dom";
         <CardFooter className="pt-3">
          <Link to={`/packageDetails/${_id}`}> <Button className="w-1/2 flex justify-center px-3 py-5 rounded-3xl mx-auto bg-red-600 my-2 text-white" size="lg" fullWidth={true}>
          View Details
-       </Button></Link>
+       </Button>
+       
+       </Link>
         </CardFooter>
       </Card>
     );
