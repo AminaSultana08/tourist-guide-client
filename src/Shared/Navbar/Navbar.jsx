@@ -33,12 +33,25 @@ const Navbar = () => {
                         </Link>
                         <div className="hidden md:block ">
                             <ul className="flex  flex-row lg:gap-5 md:gap-3  lg:text-lg md:text-xs  ">
-                                <li><NavLink to='/'>Home</NavLink> </li>
-                                <li><NavLink to='/community' >Community</NavLink> </li>
-                                <li><NavLink to='/blogs'>Blogs</NavLink> </li>
-                                <li><NavLink to='/about'>About Us</NavLink> </li>
-                                <li><NavLink to='/contact'>Contact Us</NavLink> </li>
-                                <li><Link to='/' className=" ">
+                                <li><NavLink to='/' className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+                              } >
+                                Home</NavLink> </li>
+                                <li><NavLink to='/community' className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+                              }>
+                                Community</NavLink> </li>
+                                <li><NavLink to='/blogs' className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+                              }>
+                                Blogs</NavLink> </li>
+                                <li><NavLink to='/about' className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+                              }>About Us</NavLink> </li>
+                                <li><NavLink to='/contact' className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+                              }>Contact Us</NavLink> </li>
+                                <li><Link to='/dashboard/myWishList' className=" ">
                                     <button className="btn flex items-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />

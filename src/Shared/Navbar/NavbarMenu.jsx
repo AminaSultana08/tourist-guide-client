@@ -38,11 +38,21 @@ const NavbarMenu = () => {
                 <div className="flex flex-col cursor-pointer">
                   <div className="md:hidden block ">
                   <ul className="flex  flex-col gap-2  ">
-                  <li><NavLink to='/'>Home</NavLink> </li>
-                  <li><NavLink to='/community' >Community</NavLink> </li>
-                  <li><NavLink to='/blogs'>Blogs</NavLink> </li>
-                  <li><NavLink to='/about'>About Us</NavLink> </li>
-                  <li><NavLink to='/contact'>Contact Us</NavLink> </li>
+                  <li><NavLink to='/' className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+                }>Home</NavLink> </li>
+                  <li><NavLink to='/community' className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+                }>Community</NavLink> </li>
+                  <li><NavLink to='/blogs' className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+                }>Blogs</NavLink> </li>
+                  <li><NavLink to='/about' className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+                }>About Us</NavLink> </li>
+                  <li><NavLink to='/contact' className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+                }>Contact Us</NavLink> </li>
                   {
                     user ?<>
                     

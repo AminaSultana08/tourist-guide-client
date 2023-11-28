@@ -6,6 +6,9 @@ import PackageDetails from "../Pages/Home/Home/TravelGuide/OurPackages/PackageDe
 import Login from "../Pages/Login/Login";
 import Register from "../Register/Register";
 import PrivateRoute from "./PrivateRoute";
+import Dashboard from "../Layout/Dashboard/Dashboard";
+import MyWishList from "../Pages/Dashboard/MyWishList/MyWishList";
+
 
 
 const router = createBrowserRouter([
@@ -34,6 +37,17 @@ const router = createBrowserRouter([
             {
                 path:'/register',
                 element:<Register></Register>
+            }
+        ]
+
+    },
+    {
+        path:'/dashboard',
+        element:<Dashboard></Dashboard>,
+        children:[
+            {
+                path:'myWishList',
+                element:<MyWishList></MyWishList>
             }
         ]
     }
