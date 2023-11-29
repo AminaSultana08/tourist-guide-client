@@ -4,12 +4,15 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
 import Swal from "sweetalert2";
+import useAxiosPublic from "../hooks/useAxiosPublic";
+import GoogleSignIn from "../Component/GoogleSignIn";
 
 const Register = () => {
     const { register, handleSubmit,reset,  formState: { errors }, } = useForm()
 
     const {createUser,updateUserProfile} = useContext(AuthContext);
     const navigate = useNavigate();
+    const axiosPublic = useAxiosPublic()
 
 
     const onSubmit= (data) => {
@@ -20,28 +23,43 @@ const Register = () => {
             console.log(loggedUser);
             updateUserProfile(data.name,data.photoURL)
             .then(()=>{
-                console.log('User Profile Info updated');
-                reset()
+               //create user in database
+               const userInfo = {
+                name:data.name,
+                email:data.email,
+                photoURL:data.photoURL
+               }
+               axiosPublic.post('/users',userInfo) 
+               .then(res=>{
+                console.log(res.data);
+                if(res.data.insertedId){
+                    console.log('user added to database');
+                    reset()
+                    Swal.fire({
+                        title: "User Created successfully ",
+                        showClass: {
+                          popup: `
+                            animate__animated
+                            animate__fadeInUp
+                            animate__faster
+                          `
+                        },
+                        hideClass: {
+                          popup: `
+                            animate__animated
+                            animate__fadeOutDown
+                            animate__faster
+                          `
+                        }
+                      });
+                      navigate('/')
+                }
+               })
+                
               } )
             .catch(error =>console.log(error))
-            Swal.fire({
-                title: "User Created uccessfully ",
-                showClass: {
-                  popup: `
-                    animate__animated
-                    animate__fadeInUp
-                    animate__faster
-                  `
-                },
-                hideClass: {
-                  popup: `
-                    animate__animated
-                    animate__fadeOutDown
-                    animate__faster
-                  `
-                }
-              });
-              navigate('/')
+            
+             
         })
     }
 
@@ -142,7 +160,8 @@ const Register = () => {
                             Login
                         </Link>
                     </p>
-
+                  <h1 className="font-bold text-xl text-center text-red-400">  Sign Up With</h1>
+                     <GoogleSignIn></GoogleSignIn>
                 </div>
             </div>
         </div>

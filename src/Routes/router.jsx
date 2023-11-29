@@ -8,6 +8,11 @@ import Register from "../Register/Register";
 import PrivateRoute from "./PrivateRoute";
 import Dashboard from "../Layout/Dashboard/Dashboard";
 import MyWishList from "../Pages/Dashboard/MyWishList/MyWishList";
+import MyBookings from "../Pages/MyBookings/MyBookings";
+import MyProfile from "../Pages/MyProfile/MyProfile";
+import AdminProfile from "../Pages/Dashboard/AdminProfile/AdminProfile";
+import ManageUsers from "../Pages/Dashboard/ManageUsers/ManageUsers";
+import AddPackage from "../Pages/Dashboard/AddPackage/AddPackage";
 
 
 
@@ -43,11 +48,33 @@ const router = createBrowserRouter([
     },
     {
         path:'/dashboard',
-        element:<Dashboard></Dashboard>,
+        element:<PrivateRoute><Dashboard></Dashboard></PrivateRoute>,
         children:[
+            //user dashboard
             {
                 path:'myWishList',
-                element:<MyWishList></MyWishList>
+                element: <PrivateRoute><MyWishList></MyWishList></PrivateRoute>
+            },
+            {
+                path:'myBookings',
+                element:<PrivateRoute><MyBookings></MyBookings></PrivateRoute>
+            },
+            {
+                path:'myProfile',
+                element:<PrivateRoute><MyProfile></MyProfile> </PrivateRoute>
+            },
+            //admin dashboard
+            {
+                path:'adminProfile',
+                element:<AdminProfile></AdminProfile>
+            },
+            {
+                path:'manageUser',
+                element:<ManageUsers></ManageUsers>
+            },
+            {
+                path:'addPackage',
+                element:<AddPackage></AddPackage>
             }
         ]
     }

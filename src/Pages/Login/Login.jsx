@@ -1,8 +1,9 @@
 import { useContext } from "react";
-import { Link, useLocation, useNavigate, useNavigation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 import { Helmet } from "react-helmet";
 import Swal from "sweetalert2";
+import GoogleSignIn from "../../Component/GoogleSignIn";
 
 
 
@@ -96,16 +97,17 @@ Password
 </div>
 </form>
  
-   <p className="flex justify-center pb-6 mt-6 font-sans text-sm antialiased font-light leading-normal text-inherit">
+   <p className="flex justify-center pb-6 mt-6 font-sans text-sm antialiased font-light leading-normal text-red-200 text-inherit">
      Don't have an account?
      <Link
        to='/register'
-       className="block underline ml-1 font-sans text-sm antialiased font-bold leading-normal text-red-500"
+       className="block  ml-1 font-sans text-sm antialiased font-bold leading-normal underline text-red-500"
      >
        Sign up
      </Link>
    </p>
- 
+   <h1 className="font-bold text-xl text-center text-red-400">  Sign In With</h1>
+   <GoogleSignIn></GoogleSignIn>
 </div>
           </div>
        </div>

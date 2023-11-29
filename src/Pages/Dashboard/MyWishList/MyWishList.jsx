@@ -104,8 +104,7 @@ const MyWishList = () => {
 
             <th>
             <Link to={`/packageDetails/${item._id}`}>    <button
-            data-ripple-light="true"
-            data-tooltip-target="tooltip-top"
+           
             className="middle none center rounded-lg bg-gradient-to-tr from-red-700 to-red-500 py-3 px-4 font-sans text-xs font-bold uppercase text-white shadow-md shadow-red-500/20 transition-all hover:shadow-lg hover:shadow-red-500/40 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           >
            View Details
