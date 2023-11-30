@@ -84,7 +84,7 @@ const router = createBrowserRouter([
                 element:<PrivateRoute><MyBookings></MyBookings></PrivateRoute>
             },
             {
-                path:'myProfile',
+                path:'userProfile',
                 element:<PrivateRoute><MyProfile></MyProfile> </PrivateRoute>
             },
             //admin dashboard
