@@ -1,13 +1,16 @@
+import { Helmet } from "react-helmet";
 import Title from "../../Component/Title/Title";
 
 
 const Blogs = () => {
     return (
-        <div className='pt-10 mb-32 '>
+        <div className='pt-24 mb-32 '>
+        <Helmet><title>Paladium Awatis | Blogs</title> </Helmet>
         <div className="w-full" >
        
          
         <div>
+       
         
          <Title subHeading='Our' heading='Blogs'></Title>
         </div>

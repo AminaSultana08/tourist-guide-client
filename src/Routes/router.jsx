@@ -59,11 +59,11 @@ const router = createBrowserRouter([
                 element:<Blogs></Blogs>
             },
             {
-                path:'/contactUs',
+                path:'/contact',
                 element:<ContactUs></ContactUs>
             },
             {
-                path:'/aboutUs',
+                path:'/about',
                 element:<AboutUs></AboutUs>
             }
 
