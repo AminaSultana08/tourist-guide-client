@@ -5,7 +5,7 @@ import TravelGuide from "./TravelGuide/TravelGuide";
 
 const Home = () => {
     return (
-        <div>
+        <div className="bg-red-100">
            <Helmet><title>Paladium Awatis | Home</title> </Helmet>
            <Carousel></Carousel>
            <TravelGuide></TravelGuide>
