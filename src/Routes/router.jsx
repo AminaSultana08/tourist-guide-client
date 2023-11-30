@@ -13,6 +13,9 @@ import MyProfile from "../Pages/MyProfile/MyProfile";
 import AdminProfile from "../Pages/Dashboard/AdminProfile/AdminProfile";
 import ManageUsers from "../Pages/Dashboard/ManageUsers/ManageUsers";
 import AddPackage from "../Pages/Dashboard/AddPackage/AddPackage";
+import TourGuideProfile from "../Pages/Dashboard/TourGuideProfile/TourGuideProfile";
+import MyAssignedTour from "../Pages/Dashboard/MyAssignedTour/MyAssignedTour";
+import AdminRoute from "./AdminRoute";
 
 
 
@@ -70,11 +73,20 @@ const router = createBrowserRouter([
             },
             {
                 path:'manageUser',
-                element:<ManageUsers></ManageUsers>
+                element:<AdminRoute><ManageUsers></ManageUsers></AdminRoute>
             },
             {
                 path:'addPackage',
-                element:<AddPackage></AddPackage>
+                element:<AdminRoute><AddPackage></AddPackage></AdminRoute>
+            },
+            //tour guide
+            {
+                path:'tourGuideProfile',
+                element:<PrivateRoute><TourGuideProfile></TourGuideProfile></PrivateRoute>
+            },
+            {
+                path:'assignedTours',
+                element:<PrivateRoute><MyAssignedTour></MyAssignedTour></PrivateRoute>
             }
         ]
     }

@@ -52,14 +52,14 @@ console.log('state in the location login page', location.state);
     return (
        <>
        <Helmet><title>Paladium Awatis | Login</title> </Helmet>
-       <div className="  min-h-screen bg-base-200 pt-20">
+       <div className="  min-h-screen bg-base-200 pt-20 mb-20">
       
-          <div className="  flex-col lg:flex-row-reverse md:flex-row-reverse flex text-black justify-center gap-10 mt-24">
+          <div className="  flex-col items-center lg:flex-row-reverse md:flex-row-reverse flex text-black justify-center gap-10 mt-24">
           
-          <div className="bg-red-200 ">
-          <h1>Please log in</h1>
+          <div className="">
+         <img className="w-full h-96" src="https://i.ibb.co/C9DG5ZF/6333204.jpg" alt=""/>
           </div>
-          <div className="relative w-2/3 mt-24 flex flex-col  text-red-500 bg-zinc-800 shadow-md lg:w-96 md:w-96 lg:mx-0 md:mx-0 mx-auto rounded-xl bg-clip-border">
+          <div className="relative w-2/3 mt-24 flex flex-col mb-10  text-red-500 bg-zinc-800 shadow-md lg:w-96 md:w-96 lg:mx-0 md:mx-0 mx-auto  rounded-xl bg-clip-border">
 
  <div className="relative grid mx-4 mb-4 -mt-6 overflow-hidden text-red-500 shadow-lg h-28 place-items-center rounded-xl bg-black bg-clip-border shadow-red-500/40">
    <h3 className="block  text-red-500 font-sans text-3xl antialiased font-semibold leading-snug tracking-normal ">

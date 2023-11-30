@@ -27,8 +27,8 @@ const NavbarMenu = () => {
          referrerPolicy='no-referrer'
          src={user && user.photoURL ? user.photoURL : avatar}
          alt='profile'
-         height='100'
-         width='100'
+         height='80'
+         width='80'
        />
          </div>
 
@@ -64,7 +64,7 @@ const NavbarMenu = () => {
                     user ?<>
                     <span>{user?.displayName} </span>
                     <span>{user?.email} </span>
-                     </> : <><li><Link to='/login'>Login</Link> </li></>
+                     </> : ''
                  }
                     <Link to='/dashboard' className="text-red-500 ">Dashboard</Link>
                     <Link > <button onClick={handleLogOut} className="btn flex justify-center items-center gap-1 text-red-500" type=""><IoLogOutOutline className="text-lg"/> LogOut</button></Link>

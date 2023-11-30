@@ -5,84 +5,130 @@
       "tour_id": 1,
       "image": "https://i.ibb.co/SvYwPpk/hemel-ahmed-Se-Xd-Av4-OTuo-unsplash.jpg",
       "tour_type": "History",
-      "title": "Ancient City Expedition",
+      "type_icon": "https://i.ibb.co/kGYj8jc/abdullah-al-imran-u-Typw-Qaa-OLg-unsplash.jpg",
+      "title": "Echoes of Centuries Past: History Tour of Bagerhat, Bangladesh",
+
       "price": 150,
-      "day1_tourPlan": "Visit to the Colosseum and Roman Forum",
-      "day1_description": "Explore the iconic Colosseum and immerse yourself in the history of the Roman Empire.",
-      "day2_tourPlan": "Tour of the Vatican City",
-      "day2_description": "Discover the art and architecture of the Vatican, including St. Peter's Basilica and the Sistine Chapel."
+      "Description":"Embark on a captivating journey through time as we invite you to explore the historical wonders of Bagerhat, a UNESCO World Heritage Site in Bangladesh. This history tour promises an immersive experience, allowing you to unravel the tales of a bygone era, where the echoes of centuries past resonate in the magnificent architecture and cultural heritage.",
+      "day1_tourPlan": "Arrival in Bagerhat",
+      "day1_description": "Your historical adventure begins in Bagerhat, a city steeped in history and heritage. Upon arrival, our knowledgeable guides will welcome you and provide an introduction to the rich tapestry of Bagerhat's past. Check into your accommodation and prepare for a journey through the annals of time.",
+
+      "day2_tourPlan": "Bagerhat's Mosque City",
+      "day2_description": "Explore the Mosque City of Bagerhat, renowned for its spectacular collection of historic mosques built during the 15th century. Visit the UNESCO-listed Sixty Dome Mosque, a marvel of medieval architecture, and the Shat Gombuj Mosque, also known as the Sixty Dome Mosque, showcasing intricate terracotta ornamentation.",
+
+      "day3_tourPlan": "Folklore and Legends at Dargah of Ghazi Kalu",
+      "day3_description": "Explore the mystical Dargah of Ghazi Kalu, where legends and folklore intertwine with history. This sacred site, associated with a local warrior hero, provides a glimpse into the cultural and spiritual beliefs of the region."
     },
     {
       "tour_id": 2,
       "image": "https://i.ibb.co/CQhJCHx/niloy-biswas-Dlzof0g5svo-unsplash.jpg",
-      "tour_type": "Culinary ",
-      "title": "Gourmet Delights of Paris",
+      "tour_type": "Culinary ", 
+      "type_icon": "https://i.ibb.co/PhVv3Xx/Bangladeshi-cuisine-1024x721.webp",
+
+      "title": "Flavors of Bengal: Culinary Expedition through Old Dhaka, Bangladesh",
       "price": 200,
-      "day1_tourPlan": "Morning visit to a local bakery for fresh pastries",
-      "day1_description": "Start your day with the finest French pastries in a charming local bakery.",
-      "day2_tourPlan": "Evening gourmet dinner at a Michelin-starred restaurant",
-      "day2_description": "Indulge in a culinary masterpiece with a multi-course dinner at a renowned Michelin-starred restaurant."
+      "Description":"Embark on a gastronomic adventure through the bustling streets of Old Dhaka, where centuries-old recipes and vibrant spices come together to create a symphony of flavors. This culinary tour invites you to savor the diverse and delectable dishes that define the rich tapestry of Bangladeshi cuisine.",
+      "day1_tourPlan": "Arrival in Dhaka",
+      "day1_description": "Your culinary journey begins in the heart of Dhaka, a city that pulsates with the rhythm of its markets and the aroma of its street food. Upon arrival, our culinary guides will introduce you to the world of Bangladeshi flavors. Check into your accommodation and get ready to tantalize your taste buds.",
+
+      "day2_tourPlan": "Street Food Extravaganza",
+      "day2_description": "Embark on a street food tour, weaving through the narrow lanes of Old Dhaka. Sample iconic street food such as fuchka (pani puri), kathi rolls, jhalmuri, and various kebabs. Let the vibrant street culture surround you as you savor the unique flavors of Bangladeshi street cuisine.",
+
+      "day3_tourPlan": "Farewell Dinner and Departure",
+      "day3_description": "Conclude your culinary expedition with a farewell dinner featuring a curated menu of regional specialties. Share stories and flavors with newfound friends, carrying the taste of Bangladesh with you as you bid farewell to this culinary haven."
     },
     {
       "tour_id": 3,
       "image": "https://i.ibb.co/khqGLhf/motiur-rahman-shakil-l2-Knpn-Orhh-A-unsplash.jpg",
       "tour_type": "Hiking ",
-      "title": "Hiking in the Swiss Alps",
+      "type_icon": "https://i.ibb.co/bzzTMbK/kalen-emsley-7bw-QXzb-F6-KE-unsplash.jpg",
+
+      "title": "Hiking Expedition in the Chittagong Hill Tracts, Bangladesh",
       "price": 250,
-      "day1_tourPlan": "Scenic hike to Jungfraujoch",
-      "day1_description": "Embark on a breathtaking hike to the 'Top of Europe' with stunning views of the Swiss Alps.",
-      "day2_tourPlan": "Adventure sports in Interlaken",
-      "day2_description": "Experience the thrill with a day of paragliding, zip-lining, and other adventure sports in Interlaken."
+      "Description":"Embark on a thrilling hiking adventure through the captivating landscapes of the Chittagong Hill Tracts, where lush green hills, cascading waterfalls, and vibrant indigenous cultures await. This hiking tour promises not only spectacular panoramic views but also an immersive experience in the natural and cultural treasures of this unique region.",
+      "day1_tourPlan": " Arrival in Bandarban",
+      "day1_description": "Your hiking expedition commences in the picturesque town of Bandarban, nestled amidst the hills of the Chittagong Hill Tracts. Upon arrival, soak in the serene atmosphere and settle into your accommodation, surrounded by the beauty of nature.",
+
+      "day2_tourPlan": "Tazing Dong Peak Trek",
+      "day2_description": "Challenge yourself with a trek to Tazing Dong, the highest peak in Bangladesh. The trail is both exhilarating and rewarding, offering panoramic views of the surrounding hills and valleys. Reach the summit and revel in the sense of accomplishment as you take in the breathtaking vistas.",
+
+      "day3_tourPlan": " Trek to Nafakhum Waterfall",
+      "day3_description": "Embark on a trekking adventure to Nafakhum Waterfall, one of the largest waterfalls in Bangladesh. The trail leads through dense forests and tribal villages, providing an opportunity to interact with the indigenous communities. Arrive at the breathtaking Nafakhum, where the powerful cascade plunges into a pristine pool surrounded by lush greenery."
     },
     {
       "tour_id": 4,
       "image": "https://i.ibb.co/CQhJCHx/niloy-biswas-Dlzof0g5svo-unsplash.jpg",
       "tour_type": "Cultural ",
+      "type_icon": "https://i.ibb.co/rQ19mgt/bangladeshi-tribal-people-take-part-in-a-330003-1.webp",
       "title": "Japanese Cultural Experience",
       "price": 180,
-      "day1_tourPlan": "Tea ceremony and traditional kimono wearing",
-      "day1_description": "Participate in a traditional Japanese tea ceremony and dress in a beautiful kimono.",
-      "day2_tourPlan": "Visit to a local Shinto shrine and festival",
-      "day2_description": "Immerse yourself in Japanese spirituality with a visit to a Shinto shrine and experience a local festival."
+      "Description":"Embark on a captivating cultural journey through the historic streets of Old Dhaka, where the vibrant tapestry of Bangladesh's rich heritage comes to life. This immersive cultural tour promises to unveil the centuries-old traditions, architecture, and the warm hospitality that define the heart of the nation.",
+      "day1_tourPlan": "Arrival in Dhaka",
+      "day1_description": "Your cultural adventure begins in the bustling capital city of Dhaka. Upon arrival, you'll be greeted by our knowledgeable guides who will be your companions throughout the tour. After settling into your accommodation, get ready to dive into the cultural riches of Old Dhaka.",
+
+      "day2_tourPlan": " Morning at Lalbagh Fort",
+      "day2_description": "Start your day at the iconic Lalbagh Fort, a 17th-century Mughal fort complex. Marvel at the architectural beauty as you explore the fort, its mosque, and the serene gardens. The fort holds stories of the region's history and offers a glimpse into the Mughal era.",
+
+      "day3_tourPlan": "A Walk through Ahsan Manzil",
+      "day3_description": "Visit the majestic Ahsan Manzil, the Pink Palace, which once served as the official residential palace of the Nawab of Dhaka. The architectural grandeur, reminiscent of European palaces, is a testament to the cultural fusion that defines Bangladesh's history."
     },
     {
       "tour_id": 5,
       "image": "https://i.ibb.co/PTjQwL6/rakib-bin-aziz-T6-Boc-Vo-WOhs-unsplash.jpg",
       "tour_type": "Urban",
-      "title": "Barcelona Modernist Marvels",
+      "type_icon": "https://i.ibb.co/kMzqNwy/bangladesh-1-1611923974-profile-Image-2x-jpg.webp",
+      "title": "Metropolitan Melodies: Urban Exploration in Dhaka, Bangladesh",
       "price": 180,
-      "day1_tourPlan": "Exploration of Gaudí's masterpieces",
-      "day1_description": "Discover the architectural wonders of Antoni Gaudí, including Sagrada Família and Park Güell.",
-      "day2_tourPlan": "Art stroll through the Gothic Quarter",
-      "day2_description": "Wander through the historic Gothic Quarter, exploring medieval architecture and contemporary art installations."
+      "Description":"Embark on a dynamic urban adventure through the vibrant cityscape of Dhaka, where tradition meets modernity in a harmonious blend. This urban tour invites you to explore the multifaceted facets of Bangladesh's capital, from historical landmarks to contemporary hotspots, providing a glimpse into the pulse of this bustling metropolis.",
+      "day1_tourPlan": "Arrival in Dhaka",
+      "day1_description": "Your urban exploration begins as you arrive in Dhaka, a city that pulsates with energy and diversity. Check into your accommodation and immerse yourself in the vibrant atmosphere that defines this dynamic metropolis.",
+
+      "day2_tourPlan": "Art and Culture at Bangladesh National Museum",
+      "day2_description": "Delve into the artistic and cultural heritage of Bangladesh at the Bangladesh National Museum. Explore exhibits showcasing artifacts, paintings, and sculptures that highlight the country's history, art, and traditions.",
+
+      "day3_tourPlan": "Riverside Revelry at Sadarghat",
+      "day3_description": "Conclude your urban tour with a visit to Sadarghat, Dhaka's bustling riverfront. Experience the vibrant river life, witness boat activity, and enjoy a relaxing river cruise. As the sun sets over the Buriganga River, reflect on the dynamic urban journey through the heart of Bangladesh."
     },
     {
       "tour_id": 6,
       "image": "https://i.ibb.co/SvYwPpk/hemel-ahmed-Se-Xd-Av4-OTuo-unsplash.jpg",
       "tour_type": "History",
-      "title": "Ancient City Expedition",
+      "type_icon": "https://i.ibb.co/kGYj8jc/abdullah-al-imran-u-Typw-Qaa-OLg-unsplash.jpg",
+      "title": "Echoes of Centuries Past: History Tour of Bagerhat, Bangladesh",
       "price": 150,
-      "day1_tourPlan": "Visit to the Colosseum and Roman Forum",
-      "day1_description": "Explore the iconic Colosseum and immerse yourself in the history of the Roman Empire.",
-      "day2_tourPlan": "Tour of the Vatican City",
-      "day2_description": "Discover the art and architecture of the Vatican, including St. Peter's Basilica and the Sistine Chapel."
+      "Description":"Embark on a captivating journey through time as we invite you to explore the historical wonders of Bagerhat, a UNESCO World Heritage Site in Bangladesh. This history tour promises an immersive experience, allowing you to unravel the tales of a bygone era, where the echoes of centuries past resonate in the magnificent architecture and cultural heritage.",
+      "day1_tourPlan": "Arrival in Bagerhat",
+      "day1_description": "Your historical adventure begins in Bagerhat, a city steeped in history and heritage. Upon arrival, our knowledgeable guides will welcome you and provide an introduction to the rich tapestry of Bagerhat's past. Check into your accommodation and prepare for a journey through the annals of time.",
+
+      "day2_tourPlan": "Bagerhat's Mosque City",
+      "day2_description": "Explore the Mosque City of Bagerhat, renowned for its spectacular collection of historic mosques built during the 15th century. Visit the UNESCO-listed Sixty Dome Mosque, a marvel of medieval architecture, and the Shat Gombuj Mosque, also known as the Sixty Dome Mosque, showcasing intricate terracotta ornamentation.",
+
+      "day3_tourPlan": "Folklore and Legends at Dargah of Ghazi Kalu",
+      "day3_description": "Explore the mystical Dargah of Ghazi Kalu, where legends and folklore intertwine with history. This sacred site, associated with a local warrior hero, provides a glimpse into the cultural and spiritual beliefs of the region."
     },
     {
       "tour_id": 7,
       "image": "https://i.ibb.co/CQhJCHx/niloy-biswas-Dlzof0g5svo-unsplash.jpg",
       "tour_type": "Culinary ",
-      "title": "Gourmet Delights of Paris",
+      "type_icon": "https://i.ibb.co/PhVv3Xx/Bangladeshi-cuisine-1024x721.webp",
+      "title": "Flavors of Bengal: Culinary Expedition through Old Dhaka, Bangladesh",
       "price": 200,
-      "day1_tourPlan": "Morning visit to a local bakery for fresh pastries",
-      "day1_description": "Start your day with the finest French pastries in a charming local bakery.",
-      "day2_tourPlan": "Evening gourmet dinner at a Michelin-starred restaurant",
-      "day2_description": "Indulge in a culinary masterpiece with a multi-course dinner at a renowned Michelin-starred restaurant."
+      "Description":"Embark on a gastronomic adventure through the bustling streets of Old Dhaka, where centuries-old recipes and vibrant spices come together to create a symphony of flavors. This culinary tour invites you to savor the diverse and delectable dishes that define the rich tapestry of Bangladeshi cuisine.",
+      "day1_tourPlan": "Arrival in Dhaka",
+      "day1_description": "Your culinary journey begins in the heart of Dhaka, a city that pulsates with the rhythm of its markets and the aroma of its street food. Upon arrival, our culinary guides will introduce you to the world of Bangladeshi flavors. Check into your accommodation and get ready to tantalize your taste buds.",
+
+      "day2_tourPlan": "Street Food Extravaganza",
+      "day2_description": "Embark on a street food tour, weaving through the narrow lanes of Old Dhaka. Sample iconic street food such as fuchka (pani puri), kathi rolls, jhalmuri, and various kebabs. Let the vibrant street culture surround you as you savor the unique flavors of Bangladeshi street cuisine.",
+
+      "day3_tourPlan": "Farewell Dinner and Departure",
+      "day3_description": "Conclude your culinary expedition with a farewell dinner featuring a curated menu of regional specialties. Share stories and flavors with newfound friends, carrying the taste of Bangladesh with you as you bid farewell to this culinary haven."
     },
     {
       "tour_id": 8,
       "image": "https://i.ibb.co/khqGLhf/motiur-rahman-shakil-l2-Knpn-Orhh-A-unsplash.jpg",
       "tour_type": "Hiking ",
-      "title": "Hiking in the Swiss Alps",
+      "type_icon": "https://i.ibb.co/bzzTMbK/kalen-emsley-7bw-QXzb-F6-KE-unsplash.jpg",
+      "title": "Heritage Unveiled: Cultural Tour of Old Dhaka, Bangladesh",
       "price": 250,
       "day1_tourPlan": "Scenic hike to Jungfraujoch",
       "day1_description": "Embark on a breathtaking hike to the 'Top of Europe' with stunning views of the Swiss Alps.",
@@ -93,67 +139,101 @@
       "tour_id": 9,
       "image": "https://i.ibb.co/CQhJCHx/niloy-biswas-Dlzof0g5svo-unsplash.jpg",
       "tour_type": "Cultural ",
-      "title": "Japanese Cultural Experience",
+      "type_icon": "https://i.ibb.co/rQ19mgt/bangladeshi-tribal-people-take-part-in-a-330003-1.webp",
+      
+      "title": "Heritage Unveiled: Cultural Tour of Old Dhaka, Bangladesh",
       "price": 180,
-      "day1_tourPlan": "Tea ceremony and traditional kimono wearing",
-      "day1_description": "Participate in a traditional Japanese tea ceremony and dress in a beautiful kimono.",
-      "day2_tourPlan": "Visit to a local Shinto shrine and festival",
-      "day2_description": "Immerse yourself in Japanese spirituality with a visit to a Shinto shrine and experience a local festival."
+      "Description":"Embark on a captivating cultural journey through the historic streets of Old Dhaka, where the vibrant tapestry of Bangladesh's rich heritage comes to life. This immersive cultural tour promises to unveil the centuries-old traditions, architecture, and the warm hospitality that define the heart of the nation.",
+      "day1_tourPlan": "Arrival in Dhaka",
+      "day1_description": "Your cultural adventure begins in the bustling capital city of Dhaka. Upon arrival, you'll be greeted by our knowledgeable guides who will be your companions throughout the tour. After settling into your accommodation, get ready to dive into the cultural riches of Old Dhaka.",
+
+      "day2_tourPlan": " Morning at Lalbagh Fort",
+      "day2_description": "Start your day at the iconic Lalbagh Fort, a 17th-century Mughal fort complex. Marvel at the architectural beauty as you explore the fort, its mosque, and the serene gardens. The fort holds stories of the region's history and offers a glimpse into the Mughal era.",
+
+      "day3_tourPlan": "A Walk through Ahsan Manzil",
+      "day3_description": "Visit the majestic Ahsan Manzil, the Pink Palace, which once served as the official residential palace of the Nawab of Dhaka. The architectural grandeur, reminiscent of European palaces, is a testament to the cultural fusion that defines Bangladesh's history."
     },
     {
       "tour_id": 10,
       "image": "https://i.ibb.co/PTjQwL6/rakib-bin-aziz-T6-Boc-Vo-WOhs-unsplash.jpg",
       "tour_type": "Urban",
-      "title": "Barcelona Modernist Marvels",
+      "type_icon": "https://i.ibb.co/kMzqNwy/bangladesh-1-1611923974-profile-Image-2x-jpg.webp",
+      "title": "Metropolitan Melodies: Urban Exploration in Dhaka, Bangladesh",
       "price": 180,
-      "day1_tourPlan": "Exploration of Gaudí's masterpieces",
-      "day1_description": "Discover the architectural wonders of Antoni Gaudí, including Sagrada Família and Park Güell.",
-      "day2_tourPlan": "Art stroll through the Gothic Quarter",
-      "day2_description": "Wander through the historic Gothic Quarter, exploring medieval architecture and contemporary art installations."
+      "Description":"Embark on a dynamic urban adventure through the vibrant cityscape of Dhaka, where tradition meets modernity in a harmonious blend. This urban tour invites you to explore the multifaceted facets of Bangladesh's capital, from historical landmarks to contemporary hotspots, providing a glimpse into the pulse of this bustling metropolis.",
+      "day1_tourPlan": "Arrival in Dhaka",
+      "day1_description": "Your urban exploration begins as you arrive in Dhaka, a city that pulsates with energy and diversity. Check into your accommodation and immerse yourself in the vibrant atmosphere that defines this dynamic metropolis.",
+
+      "day2_tourPlan": "Art and Culture at Bangladesh National Museum",
+      "day2_description": "Delve into the artistic and cultural heritage of Bangladesh at the Bangladesh National Museum. Explore exhibits showcasing artifacts, paintings, and sculptures that highlight the country's history, art, and traditions.",
+
+      "day3_tourPlan": "Riverside Revelry at Sadarghat",
+      "day3_description": "Conclude your urban tour with a visit to Sadarghat, Dhaka's bustling riverfront. Experience the vibrant river life, witness boat activity, and enjoy a relaxing river cruise. As the sun sets over the Buriganga River, reflect on the dynamic urban journey through the heart of Bangladesh."
     },
     {
       "tour_id": 11,
       "image": "https://i.ibb.co/PTjQwL6/rakib-bin-aziz-T6-Boc-Vo-WOhs-unsplash.jpg",
       "tour_type": "Beach",
-      "title": "Barcelona Modernist Marvels",
+      "type_icon": " https://i.ibb.co/m806Mmc/masudur-rahman-3-VIASEA4x-Z0-unsplash.jpg",
+      "title": "Sun, Sand, and Serenity: Beach Retreat in Cox's Bazar, Bangladesh",
       "price": 180,
-      "day1_tourPlan": "Exploration of Gaudí's masterpieces",
-      "day1_description": "Discover the architectural wonders of Antoni Gaudí, including Sagrada Família and Park Güell.",
-      "day2_tourPlan": "Art stroll through the Gothic Quarter",
-      "day2_description": "Wander through the historic Gothic Quarter, exploring medieval architecture and contemporary art installations."
+      "Description":"Escape to the idyllic shores of Cox's Bazar, home to the world's longest natural sea beach, for an unforgettable beach tour. This coastal paradise in Bangladesh beckons you with its golden sands, turquoise waters, and a tranquil ambiance that promises the perfect blend of relaxation and adventure.",
+      "day1_tourPlan": "Arrival in Cox's Bazar",
+      "day1_description": "Your beach retreat begins with a warm welcome to Cox's Bazar, where the salty breeze and the rhythmic sound of waves set the tone for your coastal getaway. Check into your beachfront accommodation and feel the stress of daily life melt away.",
+
+      "day2_tourPlan": "Leisurely Day at Laboni Beach",
+      "day2_description": "Spend a leisurely day at Laboni Beach, the most popular stretch of Cox's Bazar. Sink your toes into the soft sands, take a refreshing dip in the Bay of Bengal, and unwind under the shade of colorful beach umbrellas. Capture the breathtaking sunset over the horizon, painting the sky in hues of orange and pink.",
+
+      "day3_tourPlan": "Serenity at Inani Beach",
+      "day3_description": "Discover the tranquility of Inani Beach, known for its pristine sands and clear blue waters. Enjoy a peaceful day sunbathing, beachcombing, or taking a dip in the gentle waves. The unspoiled beauty of Inani Beach offers a serene escape from the busyness of everyday life."
     },
     {
       "tour_id": 12,
       "image": "https://i.ibb.co/PTjQwL6/rakib-bin-aziz-T6-Boc-Vo-WOhs-unsplash.jpg",
       "tour_type": "Beach",
+      "type_icon": " https://i.ibb.co/m806Mmc/masudur-rahman-3-VIASEA4x-Z0-unsplash.jpg",
       "title": "Barcelona Modernist Marvels",
       "price": 180,
-      "day1_tourPlan": "Exploration of Gaudí's masterpieces",
-      "day1_description": "Discover the architectural wonders of Antoni Gaudí, including Sagrada Família and Park Güell.",
-      "day2_tourPlan": "Art stroll through the Gothic Quarter",
-      "day2_description": "Wander through the historic Gothic Quarter, exploring medieval architecture and contemporary art installations."
+      "Description":"Escape to the idyllic shores of Cox's Bazar, home to the world's longest natural sea beach, for an unforgettable beach tour. This coastal paradise in Bangladesh beckons you with its golden sands, turquoise waters, and a tranquil ambiance that promises the perfect blend of relaxation and adventure.",
+      "day1_tourPlan": "Arrival in Cox's Bazar",
+      "day1_description": "Your beach retreat begins with a warm welcome to Cox's Bazar, where the salty breeze and the rhythmic sound of waves set the tone for your coastal getaway. Check into your beachfront accommodation and feel the stress of daily life melt away.",
+
+      "day2_tourPlan": "Leisurely Day at Laboni Beach",
+      "day2_description": "Spend a leisurely day at Laboni Beach, the most popular stretch of Cox's Bazar. Sink your toes into the soft sands, take a refreshing dip in the Bay of Bengal, and unwind under the shade of colorful beach umbrellas. Capture the breathtaking sunset over the horizon, painting the sky in hues of orange and pink.",
+
+      "day3_tourPlan": "Serenity at Inani Beach",
+      "day3_description": "Discover the tranquility of Inani Beach, known for its pristine sands and clear blue waters. Enjoy a peaceful day sunbathing, beachcombing, or taking a dip in the gentle waves. The unspoiled beauty of Inani Beach offers a serene escape from the busyness of everyday life."
     },
     {
       "tour_id": 13,
       "image": "https://i.ibb.co/PTjQwL6/rakib-bin-aziz-T6-Boc-Vo-WOhs-unsplash.jpg",
       "tour_type": "WildLife",
-      "title": "Barcelona Modernist Marvels",
+      "type_icon": "https://i.ibb.co/yWSsWdT/mamun-srizon-qay3l-NDSHzc-unsplash.jpg",
+      "title": "Discover the Rich Biodiversity: Wildlife Tour in the Sundarbans, Bangladesh",
       "price": 180,
-      "day1_tourPlan": "Exploration of Gaudí's masterpieces",
-      "day1_description": "Discover the architectural wonders of Antoni Gaudí, including Sagrada Família and Park Güell.",
-      "day2_tourPlan": "Art stroll through the Gothic Quarter",
-      "day2_description": "Wander through the historic Gothic Quarter, exploring medieval architecture and contemporary art installations."
+      "Description": "Embark on an unforgettable wildlife adventure in the heart of Bangladesh, as we invite you to explore the mesmerizing Sundarbans, the largest mangrove forest in the world. This wildlife tour promises an immersive experience, allowing you to witness the diverse flora and fauna that call this unique ecosystem home",
+      "day1_tourPlan": "Arrival in Khulna",
+      "day1_description": "Your journey begins in Khulna, the gateway to the Sundarbans. Upon arrival, you'll be greeted by our knowledgeable guides who will accompany you throughout the tour. After a brief orientation, settle into your accommodation and get ready for the adventure ahead.",
+      "day2_tourPlan": "Arrival in Khulna",
+      "day2_description": "Your journey begins in Khulna, the gateway to the Sundarbans. Upon arrival, you'll be greeted by our knowledgeable guides who will accompany you throughout the tour. After a brief orientation, settle into your accommodation and get ready for the adventure ahead.",
+      "day3_tourPlan": "Bird Watching in Karamjal",
+      "day3_description": "Wake up to the symphony of birds and head to Karamjal, a wildlife sanctuary known for its rich avian population. Enjoy a peaceful morning of bird watching as you spot kingfishers, herons, egrets, and many more. In the afternoon, visit the crocodile breeding center to witness conservation efforts up close."
     },
     {
       "tour_id": 14,
       "image": "https://i.ibb.co/PTjQwL6/rakib-bin-aziz-T6-Boc-Vo-WOhs-unsplash.jpg",
       "tour_type": "WildLife",
-      "title": "Barcelona Modernist Marvels",
+      "type_icon": "https://i.ibb.co/yWSsWdT/mamun-srizon-qay3l-NDSHzc-unsplash.jpg",
+      "title": "Discover the Rich Biodiversity: Wildlife Tour in the Sundarbans, Bangladesh",
       "price": 180,
-      "day1_tourPlan": "Exploration of Gaudí's masterpieces",
-      "day1_description": "Discover the architectural wonders of Antoni Gaudí, including Sagrada Família and Park Güell.",
-      "day2_tourPlan": "Art stroll through the Gothic Quarter",
-      "day2_description": "Wander through the historic Gothic Quarter, exploring medieval architecture and contemporary art installations."
+      "Description": "Embark on an unforgettable wildlife adventure in the heart of Bangladesh, as we invite you to explore the mesmerizing Sundarbans, the largest mangrove forest in the world. This wildlife tour promises an immersive experience, allowing you to witness the diverse flora and fauna that call this unique ecosystem home",
+      "day1_tourPlan": "Arrival in Khulna",
+      "day1_description": "Your journey begins in Khulna, the gateway to the Sundarbans. Upon arrival, you'll be greeted by our knowledgeable guides who will accompany you throughout the tour. After a brief orientation, settle into your accommodation and get ready for the adventure ahead.",
+      "day2_tourPlan": "Arrival in Khulna",
+      "day2_description": "Your journey begins in Khulna, the gateway to the Sundarbans. Upon arrival, you'll be greeted by our knowledgeable guides who will accompany you throughout the tour. After a brief orientation, settle into your accommodation and get ready for the adventure ahead.",
+      "day3_tourPlan": "Bird Watching in Karamjal",
+      "day3_description": "Wake up to the symphony of birds and head to Karamjal, a wildlife sanctuary known for its rich avian population. Enjoy a peaceful morning of bird watching as you spot kingfishers, herons, egrets, and many more. In the afternoon, visit the crocodile breeding center to witness conservation efforts up close."
+     
     }
     
   ]

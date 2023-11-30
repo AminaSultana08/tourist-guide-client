@@ -4,6 +4,7 @@ import useAxiosSecure from "../../../hooks/useAxiosSecure";
 import { FaUser } from "react-icons/fa";
 import {  AiFillDelete} from "react-icons/ai";
 import Swal from "sweetalert2";
+import { Helmet } from "react-helmet";
 
 
 
@@ -12,11 +13,7 @@ const ManageUsers = () => {
     const {data: users=[], refetch } = useQuery({
         queryKey:['users'],
         queryFn:async()=>{
-            const res = await axiosSecure.get('/users',{
-              headers:{
-                authorization:`Bearer ${localStorage.getItem('access-token') } `
-              }
-            } )
+            const res = await axiosSecure.get('/users')
             return res.data
 
         }
@@ -90,6 +87,7 @@ const ManageUsers = () => {
     }
     return (
         <div>
+        <Helmet><title>Paladium Awatis | Manage Users</title></Helmet>
             <div className="bg-red-50 min-h-screen">
                 <Title subHeading='Manage' heading='Users'  ></Title>
                 <div className="flex justify-evenly my-4">

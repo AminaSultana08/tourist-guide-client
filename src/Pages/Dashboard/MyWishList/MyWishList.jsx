@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { RiDeleteBin2Fill } from "react-icons/ri";
 import Swal from "sweetalert2";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
+import { Helmet } from "react-helmet";
 
 
 const MyWishList = () => {
@@ -42,6 +43,7 @@ const MyWishList = () => {
     }
     return (
         <div className="bg-red-100 min-h-screen ">
+        <Helmet><title>Paladium Awatis | My WishList</title></Helmet>
             <div className="flex justify-evenly py-7">
                 <h1 className='text-red text-4xl '>Wish List: {wishList.length} </h1>
                 <h1 className='text-red text-4xl '>Total Price: {totalPrice} </h1>
