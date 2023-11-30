@@ -16,6 +16,10 @@ import AddPackage from "../Pages/Dashboard/AddPackage/AddPackage";
 import TourGuideProfile from "../Pages/Dashboard/TourGuideProfile/TourGuideProfile";
 import MyAssignedTour from "../Pages/Dashboard/MyAssignedTour/MyAssignedTour";
 import AdminRoute from "./AdminRoute";
+import Community from "../Pages/Community/Community";
+import Blogs from "../Pages/Blogs/Blogs";
+import ContactUs from "../Pages/ContactUs/ContactUs";
+import AboutUs from "../Pages/AboutUs/AboutUs";
 
 
 
@@ -31,7 +35,7 @@ const router = createBrowserRouter([
             {
                 path:'packageDetails/:id',
                 element:<PrivateRoute><PackageDetails></PackageDetails></PrivateRoute>,
-                loader:({params})=>fetch(`http://localhost:5000/packages/${params.id}`)
+                loader:({params})=>fetch(`https://tourist-guide-server-five.vercel.app/packages/${params.id}`)
             },
             {
                 path:'/allPackages',
@@ -45,7 +49,24 @@ const router = createBrowserRouter([
             {
                 path:'/register',
                 element:<Register></Register>
+            },
+            {
+                path:'/community',
+                element:<Community></Community>
+            },
+            {
+                path:'/blogs',
+                element:<Blogs></Blogs>
+            },
+            {
+                path:'/contactUs',
+                element:<ContactUs></ContactUs>
+            },
+            {
+                path:'/aboutUs',
+                element:<AboutUs></AboutUs>
             }
+
         ]
 
     },

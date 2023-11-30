@@ -17,7 +17,7 @@ const Booking = () => {
   // }
     return (
         <div className="mb-10" > 
-            <h1 className="text-4xl text-center text-red-500 py-10">ready to book tour package?</h1>
+            <h1 className="text-4xl text-center text-red-500 py-10"> Book Tour Package</h1>
             <div className="text-white text-lg   m-2  ">
             <div className="card shrink-0 w-full max-w-2xl mx-auto p shadow-2xl bg-base-100">
       <form className="card-body  p-10 space-y-3 bg-slate-800 ">

@@ -45,7 +45,7 @@ const PackageDetails = () => {
                 </div>
                
             </div>
-          <TourGuide></TourGuide>
+          
             <Booking></Booking> 
             
         </div>
