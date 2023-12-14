@@ -8,7 +8,7 @@ const Gallery = () => {
     return (
         <div>
         <h1 className="text-white" ><Title subHeading='Our' heading='Gallery' ></Title> </h1>
-        <div className="grid grid-cols-3">
+        <div className="grid md:grid-cols-4  grid-cols-1  px-24 lg:grid-cols-6 max-w-5xl mx-auto">
         
         {
             tourPackages?.map(item => <Img key={item._id} item={item} ></Img> )

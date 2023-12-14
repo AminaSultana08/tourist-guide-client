@@ -22,7 +22,7 @@
     {
       "tour_id": 2,
       "image": "https://i.ibb.co/CQhJCHx/niloy-biswas-Dlzof0g5svo-unsplash.jpg",
-      "tour_type": "Culinary ", 
+      "tour_type": "Culinary", 
       "type_icon": "https://i.ibb.co/PhVv3Xx/Bangladeshi-cuisine-1024x721.webp",
 
       "title": "Flavors of Bengal: Culinary Expedition through Old Dhaka, Bangladesh",
@@ -40,7 +40,7 @@
     {
       "tour_id": 3,
       "image": "https://i.ibb.co/khqGLhf/motiur-rahman-shakil-l2-Knpn-Orhh-A-unsplash.jpg",
-      "tour_type": "Hiking ",
+      "tour_type": "Hiking",
       "type_icon": "https://i.ibb.co/bzzTMbK/kalen-emsley-7bw-QXzb-F6-KE-unsplash.jpg",
 
       "title": "Hiking Expedition in the Chittagong Hill Tracts, Bangladesh",
@@ -58,7 +58,7 @@
     {
       "tour_id": 4,
       "image": "https://i.ibb.co/CQhJCHx/niloy-biswas-Dlzof0g5svo-unsplash.jpg",
-      "tour_type": "Cultural ",
+      "tour_type": "Cultural",
       "type_icon": "https://i.ibb.co/rQ19mgt/bangladeshi-tribal-people-take-part-in-a-330003-1.webp",
       "title": "Japanese Cultural Experience",
       "price": 180,
@@ -109,7 +109,7 @@
     {
       "tour_id": 7,
       "image": "https://i.ibb.co/CQhJCHx/niloy-biswas-Dlzof0g5svo-unsplash.jpg",
-      "tour_type": "Culinary ",
+      "tour_type": "Culinary",
       "type_icon": "https://i.ibb.co/PhVv3Xx/Bangladeshi-cuisine-1024x721.webp",
       "title": "Flavors of Bengal: Culinary Expedition through Old Dhaka, Bangladesh",
       "price": 200,
@@ -126,7 +126,7 @@
     {
       "tour_id": 8,
       "image": "https://i.ibb.co/khqGLhf/motiur-rahman-shakil-l2-Knpn-Orhh-A-unsplash.jpg",
-      "tour_type": "Hiking ",
+      "tour_type": "Hiking",
       "type_icon": "https://i.ibb.co/bzzTMbK/kalen-emsley-7bw-QXzb-F6-KE-unsplash.jpg",
       "title": "Heritage Unveiled: Cultural Tour of Old Dhaka, Bangladesh",
       "price": 250,
@@ -138,7 +138,7 @@
     {
       "tour_id": 9,
       "image": "https://i.ibb.co/CQhJCHx/niloy-biswas-Dlzof0g5svo-unsplash.jpg",
-      "tour_type": "Cultural ",
+      "tour_type": "Cultural",
       "type_icon": "https://i.ibb.co/rQ19mgt/bangladeshi-tribal-people-take-part-in-a-330003-1.webp",
       
       "title": "Heritage Unveiled: Cultural Tour of Old Dhaka, Bangladesh",

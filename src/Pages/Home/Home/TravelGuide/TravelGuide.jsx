@@ -4,6 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import OurPackages from "./OurPackages/OurPackages";
 import Overview from "./Overview/Overview";
+import MeetTourGuide from "../MeetTourGuide/MeetTourGuide";
 
 
 const TravelGuide = () => {
@@ -19,11 +20,17 @@ const TravelGuide = () => {
               <Tab>Our Packages</Tab>
               <Tab>Meet Our Tour Guides</Tab>
             </TabList>
-            <TabPanel><Overview/> </TabPanel>
+            <TabPanel>
+            <Overview/> 
+            </TabPanel>
+
             <TabPanel>
             <OurPackages/>
             </TabPanel>
-            <TabPanel></TabPanel>
+            
+            <TabPanel> 
+            <MeetTourGuide/>
+             </TabPanel>
           </Tabs>
             </div>
         </div>

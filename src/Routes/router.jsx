@@ -21,6 +21,11 @@ import Blogs from "../Pages/Blogs/Blogs";
 import ContactUs from "../Pages/ContactUs/ContactUs";
 import AboutUs from "../Pages/AboutUs/AboutUs";
 
+import TourGuideProfilePage from "../Pages/Home/Home/TourGuideProfilePage/TourGuideProfileDetails";
+import Booking from "../Pages/Home/Home/TravelGuide/OurPackages/PackageDetails/Booking/Booking";
+
+
+
 
 
 const router = createBrowserRouter([
@@ -65,6 +70,16 @@ const router = createBrowserRouter([
             {
                 path:'/about',
                 element:<AboutUs></AboutUs>
+            },
+            {
+                path:'/users/:id',
+                element:<TourGuideProfilePage></TourGuideProfilePage>,
+              
+            },
+            {
+                path:"/bookings/:id",
+                element:<Booking></Booking>,
+                loader:({params})=>fetch(`https://tourist-guide-server-five.vercel.app/services/${params.id}`)
             }
 
         ]

@@ -4,18 +4,9 @@ const Img = ({item} ) => {
     const{image}=item
     return (
         
-        <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
-		<img src={image} alt="" className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square" />
-		<img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src={image} />
-		<img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src={image} />
-		<img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src={image} />
-		<img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src={image} />
-		<img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src={image} />
-		<img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src={image} />
-		<img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src={image} />
+        <div className=" grid grid-cols-2 lg:grid-cols-4 gap-2 pb-3 w-96 mx-auto md:grid-cols-4">
+		<img src={image} alt="" className="w-80 h-full  rounded shadow-sm  dark:bg-gray-500 aspect-square" />
 		
-		<img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src={image} />
-		<img src={image} alt="" className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-1 md:row-start-3 dark:bg-gray-500 aspect-square" />
 	</div>
     );   
 };

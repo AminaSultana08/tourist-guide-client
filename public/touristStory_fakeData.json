@@ -1,0 +1,62 @@
+[
+    {
+      "story_id": 1,
+      "placeName": "Majestic Mountains Retreat",
+      "photo": "https://i.ibb.co/vPkkB9c/abbat-uzk-Nxb-Pr-N9-E-unsplash.jpg",
+      "touristName": "Joba",
+      "touristPhoto": "https://i.ibb.co/vPkkB9c/abbat-uzk-Nxb-Pr-N9-E-unsplash.jpg",
+      "email": "joba@gmail.com",
+      "address": "123 Mountain View Lane, Adventure City",
+      "price": "$500",
+      "description": "I had an incredible time at Majestic Mountains Retreat. The breathtaking views, cozy cabins, and friendly staff made it an unforgettable experience. Highly recommend!",
+      "rating": 5
+    },
+    {
+      "story_id": 2,
+      "placeName": "Tropical Paradise Resort",
+      "photo": "https://i.ibb.co/0YtxMGn/angello-pro-ec-H8m-Cm4n-Wk-unsplash.jpg",
+      "touristName": "Zubo",
+      "touristPhoto": "https://i.ibb.co/0YtxMGn/angello-pro-ec-H8m-Cm4n-Wk-unsplash.jpg",
+      "email": "zubo@example.com",
+      "address": "456 Palm Beach Road, Sunshine Town",
+      "price": "$700",
+      "description": "Tropical Paradise Resort exceeded my expectations. The lush greenery, pristine beaches, and luxurious accommodations made it a perfect getaway. Worth every penny!",
+      "rating": 4.5
+    },
+    {
+      "story_id": 3,
+      "placeName": "Historic City Exploration",
+      "photo": "https://i.ibb.co/CnJyqJb/freestocks-Sdg-Ruca-Jh-Oo-unsplash.jpg",
+      "touristName": "Eva Martinez",
+      "touristPhoto": "https://i.ibb.co/CnJyqJb/freestocks-Sdg-Ruca-Jh-Oo-unsplash.jpg",
+      "email": "eva@example.com",
+      "address": "789 Heritage Street, Cultural District",
+      "price": "$400",
+      "description": "Exploring the historic city was like stepping back in time. The architecture, museums, and local cuisine made it an enriching experience. Can't wait to visit again!",
+      "rating": 4
+    },
+    {
+      "story_id": 4,
+      "placeName": "Serenity Lakeside Retreat",
+      "photo": "https://example.com/serenity_lakeside.jpg",
+      "touristName": "Charlie Brown",
+      "touristPhoto": "https://i.ibb.co/Px9SBZ5/austin-human-Ec7c-HN7ofi0-unsplash.jpg",
+      "email": "charlie@example.com",
+      "address": "101 Tranquil Lane, Lakeside Village",
+      "price": "$600",
+      "description": "Serenity Lakeside Retreat is a hidden gem. The peaceful surroundings, comfortable cabins, and water activities made it a perfect escape. I'll be coming back for sure!",
+      "rating": 4.8
+    },
+    {
+      "story_id": 5,
+      "placeName": "Adventure Safari Expedition",
+      "photo": "https://example.com/adventure_safari.jpg",
+      "touristName": "Olivia Taylor",
+      "touristPhoto": "https://i.ibb.co/YZHGP2N/brooke-cagle-Nm70-URdtf3c-unsplash.jpg",
+      "email": "olivia@example.com",
+      "address": "222 Safari Trail, Wilderness Reserve",
+      "price": "$800",
+      "description": "The adventure safari was a thrilling experience! From close encounters with wildlife to nights under the stars, it was an adventure of a lifetime. Highly recommended for nature lovers!",
+      "rating": 5
+    }
+  ]

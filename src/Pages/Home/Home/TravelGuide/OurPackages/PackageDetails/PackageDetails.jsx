@@ -1,8 +1,9 @@
 import { useLoaderData } from "react-router-dom";
 import Gallery from "./Gallery/Gallery";
-import TourGuide from "./TourGuide/TourGuide";
+
 import Booking from "./Booking/Booking";
 import FAQ from "./TourGuide/faq";
+import MeetTourGuide from "../../../MeetTourGuide/MeetTourGuide";
 
 
 
@@ -45,8 +46,9 @@ const PackageDetails = () => {
                 </div>
                
             </div>
+            <MeetTourGuide></MeetTourGuide>
           
-            <Booking></Booking> 
+            <Booking packageDetails={packageDetails} ></Booking> 
             
         </div>
     );

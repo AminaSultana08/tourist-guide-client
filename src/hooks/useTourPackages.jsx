@@ -12,7 +12,7 @@ const useTourPackages = () => {
             setLoading(false)
         })
     } ,[] )
-    return [tourPackages, loading]
+    return [tourPackages, loading,setTourPackages]
 };
 
 export default useTourPackages;
