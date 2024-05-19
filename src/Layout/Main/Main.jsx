@@ -12,7 +12,7 @@ const Main = () => {
     return (
         <div>
         { noHeaderFooter || <Navbar></Navbar>}
-        <div className="pt-30  min-h-[calc(100vh-68px)]">
+        <div className="pt-30 bg-black  min-h-[calc(100vh-68px)]">
         <Outlet></Outlet>
         </div>
         {noHeaderFooter ||  <FooterWithSocialLinks></FooterWithSocialLinks>}

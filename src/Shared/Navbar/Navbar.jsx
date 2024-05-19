@@ -20,27 +20,24 @@ const Navbar = () => {
             })
     }
     return (
-        <div className="fixed  bg-black text-red-500 rounded-md z-10 max-w-full  shadow-md">
-            <div className="py-4 border-b[1px">
+        <div className="fixed  bg-black text-red-500 rounded-md z-10 max-w-full xl:max-w-7xl shadow-md">
+            <div className="py-2 border-b[1px]">
 
                 <Container>
-                    <div className="flex flex-row justify-between items-center md:gap-20 gap-10">
+                    <div className="flex flex-row justify-between items-center xl:gap-28  xl:pl-9 pl-14 md:gap-20 gap-12">
                         <Link to='/'>
                             <div className="flex flex-row gap-2 justify-between items-center">
-                                <img width='60' height='60' src={logo} alt="" />
-                                <p className="text-xl ">Paladium Awatis</p>
+                                <img className="xl:w-16 lg:w-14 md:w-10 w-10" src={logo} alt="" />
+                                <p className="xl:text-xl lg:text-lg md:text-sm font-bold ">Paladium Awatis</p>
                             </div>
                         </Link>
-                        <div className="hidden md:block ">
-                            <ul className="flex  flex-row lg:gap-5 md:gap-3  lg:text-lg md:text-xs  ">
+                        <div className="hidden  md:block lg:text-lg md:text-xs ">
+                            <ul className="flex  flex-row lg:gap-5 md:gap-1   ">
                                 <li><NavLink to='/' className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "text-red-500 underline" : ""
                               } >
                                 Home</NavLink> </li>
-                                <li><NavLink to='/community' className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "text-red-500 underline" : ""
-                              }>
-                                Community</NavLink> </li>
+                             
                                 <li><NavLink to='/blogs' className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "text-red-500 underline" : ""
                               }>

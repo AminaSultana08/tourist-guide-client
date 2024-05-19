@@ -4,7 +4,7 @@ import Title from "../../Component/Title/Title";
 
 const AboutUs = () => {
     return (
-        <div className='pt-24 mb-32 bg-red-100 '>
+        <div className='pt-24 pb-32 bg-red-100 '>
         <Helmet><title>Paladium Awatis | About Us</title> </Helmet>
           <div className="bg-red-100">
           <Title subHeading='About'  heading='us'  ></Title>

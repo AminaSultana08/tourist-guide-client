@@ -4,9 +4,9 @@ import Title from "../../Component/Title/Title";
 
 const Blogs = () => {
     return (
-        <div className='pt-24 mb-32 '>
+        <div className='bg-red-100 p-24'>
         <Helmet><title>Paladium Awatis | Blogs</title> </Helmet>
-        <div className="w-full" >
+        <div className="max-w-6xl mx-auto  " >
        
          
         <div>
@@ -15,9 +15,9 @@ const Blogs = () => {
          <Title subHeading='Our' heading='Blogs'></Title>
         </div>
 
-        <div className="bg-red-100 p-24">
+        <div className="">
         <div className="flex flex-col gap-4 justify-center items-center ">
-        <img src="https://i.ibb.co/x5wr20D/md-zahid-hasan-joy-Hfcyr-Ss-A51-E-unsplash.jpg" alt=""/>
+        <img className="w-full" src="https://i.ibb.co/x5wr20D/md-zahid-hasan-joy-Hfcyr-Ss-A51-E-unsplash.jpg" alt=""/>
            <h1 className="text-3xl font-bold text-red-900">Cox's Bazar</h1>
            <p className="text-lg ">
            If you're looking for the most popular tourist places in Bangladesh, you should definitely visit Cox's Bazar, located alongside the Bay of Bengal beach. It has the world's largest unbroken sea beach that stretches more than one hundred and twenty kilometers.
@@ -27,7 +27,7 @@ const Blogs = () => {
        </div>
         <div className="flex flex-col justify-center items-center ">
         <img src="https://i.ibb.co/JF4x90T/hossain-azad-bh-JRm6-K3-YFo-unsplash.jpg" alt=""/>
-           <h1 className="text-3xl font-bold text-red-900">Bandarban</h1>
+           <h1 className="text-3xl font-bold pt-5 text-red-900">Bandarban</h1>
            <p className="text-lg ">
            Nilgiris are located in Thanchi Upazila of Bandarban in Bangladesh. If you want to touch the clouds by mingling with the clouds and also want to see the sunrise and sunset then go to the Nilgiris in Bandarban. There is an amazing opportunity for the dry season.
 

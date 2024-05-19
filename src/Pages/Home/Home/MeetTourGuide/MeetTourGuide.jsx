@@ -16,7 +16,7 @@ const MeetTourGuide = () => {
     return (
         <div>
         <h1 className="" ><Title subHeading='MEET' heading=' Our TourGuide' ></Title> </h1>
-            <h1 className="text-center text-2xl"> Tour Guide : {tourGuides.length} </h1>
+           
           <div className="grid lg:grid-cols-3 lg:mx-2 md:grid-cols-2 gap-2 grid-cols-1 justify-center items-center">
           {
             tourGuides.map(user=>  <div key={user._id} className="relative flex flex-col text-gray-700 bg-gray-100  shadow-md bg-clip-border rounded-xl w-72 mx-auto">

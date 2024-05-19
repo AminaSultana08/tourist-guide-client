@@ -20,15 +20,14 @@ const NavbarMenu = () => {
         <div className="relative ">
             <div onClick={()=>setIsOpen(!isOpen)} className="p-2 md:py-2 md:px-2 flex flex-row items-center gap-2 rounded-full  hover:shadow-md transition">
             
-         <FaBars className="text-red-500 lg:text-lg md:text-5xl " />
+         <FaBars className="text-red-500 lg:text-lg md:text-3xl " />
          <div>
          <img
-         className='rounded-full lg:w-24 border-red-800 border-[2px]'
+         className='rounded-full xl:w-20 xl:h-20 lg:w-20 lg:h-12 md:w-20 md:h-12 sm:w-10 sm:h-10 w-8 h-8  border-red-800 border-[2px]'
          referrerPolicy='no-referrer'
          src={user && user.photoURL ? user.photoURL : avatar}
          alt='profile'
-         height='80'
-         width='80'
+        
        />
          </div>
 
@@ -37,7 +36,7 @@ const NavbarMenu = () => {
                 isOpen && <div className="absolute px-3 bg-black p-3">
                 <div className="flex flex-col cursor-pointer">
                   <div className="md:hidden block ">
-                  <ul className="flex  flex-col gap-2  ">
+                  <ul className="flex  flex-col gap-2 pb-2  ">
                   <li><NavLink to='/' className={({ isActive, isPending }) =>
                   isPending ? "pending" : isActive ? "text-red-500 underline" : ""
                 }>Home</NavLink> </li>
@@ -62,11 +61,11 @@ const NavbarMenu = () => {
                   </div>
                   {
                     user ?<>
-                    <span>{user?.displayName} </span>
-                    <span>{user?.email} </span>
+                    <span className="pb-1">{user?.displayName} </span>
+                    <span  className="pb-1">{user?.email} </span>
                      </> : ''
                  }
-                    <Link to='/dashboard' className="text-red-500 ">Dashboard</Link>
+                    <Link to='/dashboard' className="text-red-500  pb-1">Dashboard</Link>
                     <Link > <button onClick={handleLogOut} className="btn flex justify-center items-center gap-1 text-red-500" type=""><IoLogOutOutline className="text-lg"/> LogOut</button></Link>
                 </div>
                 </div>

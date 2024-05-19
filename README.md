@@ -1,5 +1,12 @@
 # React 
 
+Admin email: nipuadmin@gmail.com
+Admin password: Qq1!Ww2@
+
+[Front-end Live Site Link](https://tourist-guide-2e8a9.web.app/)
+[Client Side Github Repository](https://github.com/programming-hero-web-course1/b8a12-client-side-AminaSultana08)
+[Server Side Github Repository](https://github.com/programming-hero-web-course1/b8a12-server-side-AminaSultana08)
+
 ##About The Tourist Guide Website
 - This Website name is Paladium Awatis. It's a Bangladeshi Tourist Guide website . There is a dashbord with 3 user role for Admin,Tourist Guide and User. Admin has profile page, manage users page and add packages page. Admin can manage users and tourist guide account and make users to tour guide. Admin can add tour packages as well and delete too.Admin can see tourist guide  and users dashboard but tourist guide and user can't see admin dashboard, I've used JWT for the security, Verify token so that one user can't access another user's information and tourist guide information. only Admin has the access permission.
 - For tourist there is another dashboard, Tourist guide has his profile.

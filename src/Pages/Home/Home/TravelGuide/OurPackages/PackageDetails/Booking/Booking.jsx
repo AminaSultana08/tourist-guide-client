@@ -68,7 +68,7 @@ console.log(tourGuides);
   
     return (
         <div className="my-10" > 
-            <h1 className="text-4xl text-center text-white py-10"><Title subHeading='Book Tour' heading=' Package'></Title> </h1>
+            <h1 className="text-4xl text-center py-10"><Title subHeading='Book Tour' heading=' Package'></Title> </h1>
             <div className="text-white text-lg   m-2  ">
             <div className="card shrink-0 w-full max-w-2xl mx-auto p shadow-2xl bg-base-100">
       <form onSubmit={handleBooking} className="card-body  p-10 space-y-3 bg-slate-800 ">

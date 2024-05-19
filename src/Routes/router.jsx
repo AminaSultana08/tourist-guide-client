@@ -16,7 +16,7 @@ import AddPackage from "../Pages/Dashboard/AddPackage/AddPackage";
 import TourGuideProfile from "../Pages/Dashboard/TourGuideProfile/TourGuideProfile";
 import MyAssignedTour from "../Pages/Dashboard/MyAssignedTour/MyAssignedTour";
 import AdminRoute from "./AdminRoute";
-import Community from "../Pages/Community/Community";
+
 import Blogs from "../Pages/Blogs/Blogs";
 import ContactUs from "../Pages/ContactUs/ContactUs";
 import AboutUs from "../Pages/AboutUs/AboutUs";
@@ -55,10 +55,7 @@ const router = createBrowserRouter([
                 path:'/register',
                 element:<Register></Register>
             },
-            {
-                path:'/community',
-                element:<Community></Community>
-            },
+           
             {
                 path:'/blogs',
                 element:<Blogs></Blogs>
@@ -96,7 +93,8 @@ const router = createBrowserRouter([
             },
             {
                 path:'myBookings',
-                element:<PrivateRoute><MyBookings></MyBookings></PrivateRoute>
+                element:<PrivateRoute><MyBookings></MyBookings></PrivateRoute>,
+                loader:()=>fetch("http://localhost:5000/bookings")
             },
             {
                 path:'userProfile',

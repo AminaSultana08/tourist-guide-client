@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react-refresh/only-export-components */
-import  { Component } from 'react';
+
 import Faq from 'react-faq-component';
 
 
@@ -10,12 +11,12 @@ const FAQ = ({packageDetails}) => {
 const data = {
     "title": "",
     "rows": [
-        {
+        {   
             "title": "Day 1",
             "content": (
                 <>
-                <h1 className='text-2xl font-bold text-red-400 bg-black py-4 px-5'> TourPlan {day1_tourPlan}:</h1> <br/>
-                <p className='text-xl font-bold text-red-200 bg-black py-4 px-5'> Description{day1_description}:</p>
+                <h1 className='text-2xl font-bold text-red-800 bg-white py-4 px-5'> TourPlan {day1_tourPlan}:</h1> <br/>
+                <p className='text-xl  text-red-800 bg-white py-4 px-5'> Description{day1_description}:</p>
                 </>
             )
         },
@@ -23,8 +24,8 @@ const data = {
             "title": "Day 2",
             "content": (
                 <>
-                <h1 className='text-2xl font-bold text-red-400 bg-black py-4 px-5'> TourPlan {day2_tourPlan}:</h1> <br/>
-                <p className='text-xl font-bold text-red-200 bg-black py-4 px-5'> Description{day2_description}:</p>
+                <h1 className='text-2xl font-bold text-red-800 bg-white py-4 px-5'> TourPlan {day2_tourPlan}:</h1> <br/>
+                <p className='text-xl  text-red-800 bg-white py-4 px-5'> Description{day2_description}:</p>
                 </>
             )
         },
@@ -32,8 +33,8 @@ const data = {
             "title": "Day 3",
             "content": (
                 <>
-                <h1 className='text-2xl font-bold text-red-400 bg-black py-4 px-5'> TourPlan {day3_tourPlan}:</h1> <br/>
-                <p className='text-xl font-bold text-red-200 bg-black py-4 px-5'> Description{day3_description}:</p>
+                <h1 className='text-2xl font-bold text-red-800 bg-white py-4 px-5'> TourPlan {day3_tourPlan}:</h1> <br/>
+                <p className='text-xl text-red-800 bg-white py-4 px-5'> Description{day3_description}:</p>
                 </>
             )
         },
@@ -41,7 +42,7 @@ const data = {
     ]
 }
     return (
-        <div className='bg-zinc-800 w-1/2 mx-auto'>
+        <div className='bg-zinc-800 w-1/2 mx-auto p-2'>
         <Faq  data={data}/>
         </div>
     );

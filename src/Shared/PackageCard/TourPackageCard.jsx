@@ -4,6 +4,7 @@ import useAuth from "../../hooks/useAuth";
 import Swal from "sweetalert2";
 import useAxiosSecure from "../../hooks/useAxiosSecure";
 import useWishList from "../../hooks/useWishList";
+import { useEffect } from "react";
 
 
 
@@ -15,6 +16,11 @@ const TourPackageCard = ({item} ) => {
   const axiosSecure = useAxiosSecure()
   const [, refetch] = useWishList()
 
+  // useEffect(()=>{
+  // fetch('')
+  // .then(res=>res.json)
+  // .then(data=>console.log(data))
+  // } ,[])
   const handleAddWishList =()=>{
    
     if(user && user?.email){

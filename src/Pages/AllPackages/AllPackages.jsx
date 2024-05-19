@@ -11,7 +11,7 @@ const AllPackages = () => {
     return (
         <div>
         <Helmet><title>Paladium Awatis | All Packages</title> </Helmet>
-            <div className="pt-20">
+            <div className="pt-20 bg-red-50">
                 <Title heading={"Packages"} subHeading='Our'></Title>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-5">
